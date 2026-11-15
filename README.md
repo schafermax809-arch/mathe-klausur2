@@ -1,6 +1,6 @@
 # Mathe Lernblatt · Klausur 23.11.2026
 
-Deutschsprachige Stochastik-Lernwebsite als interaktives Arbeitsblatt. Bordeaux, warmes Creme und gedämpfte Rosétöne. Gestaltung als durchgehendes Lernheft mit waagerechter Kapitelübersicht, Serifentiteln, Randnummern und feiner Papierstruktur. Reines HTML/CSS/JavaScript ohne Installation, externe Schriftdateien oder Build-Schritt.
+Deutschsprachige Stochastik-Lernwebsite als interaktives Arbeitsblatt. Bordeaux, helles Creme und dezente Rosétöne. Eine große grafische Arbeitsfläche, ein abgesetzter Rechenbereich und kompakte Navigation bestimmen das Layout. Reines HTML/CSS/JavaScript ohne Build-Schritt. Bricolage Grotesque und Instrument Sans werden lokal mitgeliefert; keine Font-Anfragen an Drittserver.
 
 ## Starten
 
@@ -36,4 +36,8 @@ Die vollständige Einzelprüfung der 20 UI-Regeln und aller 22 Hintergrundideen 
 
 ## Dateien
 
-`index.html`, `styles.css`, `math.js`, `content.js`, `app.js`, `favicon.svg`. Die Website benötigt keine zusätzlichen Bilddateien.
+`index.html`, `styles.css`, `math.js`, `content.js`, `app.js`, `favicon.svg`. Die Website benötigt keine zusätzlichen Bilddateien. Die beiden lokalen Schriftdateien liegen in `fonts/`.
+
+## Schriften
+
+[Bricolage Grotesque](https://fonts.google.com/specimen/Bricolage+Grotesque) und [Instrument Sans](https://fonts.google.com/specimen/Instrument+Sans), bezogen aus Google Fonts. Beide stehen unter der SIL Open Font License. Die vollständigen Lizenz- und Copyrighttexte liegen in `fonts/bricolage-OFL.txt` und `fonts/instrument-OFL.txt`.
