@@ -10,19 +10,19 @@ Stand: 15.11.2026. Prüfung gegen den ausdrücklichen Nutzerauftrag mit 20 UI-Re
 | 2 | Doppelte Labels streichen | Lektionen haben einen Modus und eine konkrete Überschrift; kein wiederholtes Themenlabel darüber. Navigations- und Quelleneinträge dienen der Orientierung. |
 | 3 | Keine zufällige Kursivschrift | Oberfläche ohne Kursivstil. Mathe steht in einer eigenen Serifenschrift; keine dekorativ kursiven Wörter. |
 | 4 | Monospace gezielt | Nur CAS-Funktionen und Eingaben verwenden Consolas/Cascadia Code. Titel, Zahlenwerte und allgemeiner Text bleiben in der Oberflächenschrift. |
-| 5 | Einheitliches Designsystem | CSS-Variablen für Papier, Oberfläche, Text, Blau, Grenzen und Radien. Gemeinsame Buttons, Felder, Tags, Aufgaben und Tabellen; konsistente Abstände. |
+| 5 | Einheitliches Designsystem | CSS-Variablen für Bordeaux, Creme, Rosé, Text und Trennlinien. Einheitliche flache Buttons, unterstrichene Eingaben und ruhiger Formelsatz. Das Heft verwendet bewusst keine schwebenden Kacheln. |
 | 6 | Produkt auf Startseite | Nutzbare Glockenkurve und echte prüfbare Aufgabe direkt auf der Startseite. Kein vorgeschalteter Werbebildschirm. |
-| 7 | Hauptfunktion erhält Platz | Glockenkurve bildet das größte eigenständige Element der Startseite und erscheint in ihrer Lektion vor dem Erklärungstext. Mobile Innenabstände wurden nach Sichtprüfung reduziert und die Darstellung vergrößert. |
-| 8 | Inhaltlich gruppierte Abstände | Aufgabe, Ergebnisfeld und Feedback gehören zu einer Aufgabenkachel. Tipps und Musterlösung stehen gestuft darunter; Lektionen haben klare Abschnittsabstände. |
-| 9 | Konkrete Überschriften | Zum Beispiel „Welche Fläche gehört zu P(X ≤ 12)?“, „Wie oft musst du einen Versuch wiederholen?“ und „Mit z und der Tabelle zur gesuchten Fläche“. |
-| 10 | Wichtigste Aktion hervorheben | Start: „Hilfsmittelfrei üben“. Übung: „Antwort prüfen“. Klausur: „Probeklausur starten“ bzw. „Klausur abgeben & auswerten“. Zweitrangige Aktionen sind zurückhaltend gestaltet. |
-| 11 | Eine Akzentfarbe | Kobaltblau #244ce5 für Hauptaktionen, aktive Navigation und Diagramm. Grün bzw. Rotbraun ausschließlich als semantisches Antwortfeedback. |
-| 12 | Einheitliche Icons | Ein kleines zusammenhängendes SVG-System: 24er ViewBox, 20 px Größe, 1,7er Strich, runde Enden, kein gefüllter Mischstil. Das mathematische Summenzeichen ist die Wortmarke. |
-| 13 | Verzierungen entfernen | Keine Glanzeffekte, Deko-Illustrationen oder Deko-Icons. Linien strukturieren Tabellen, Diagrammachsen und Inhalte; nur sehr zurückhaltende Oberflächenschatten. |
-| 14 | Verschachtelte Ecken abstimmen | Äußere Kacheln 16 px; innere Bedienelemente 7–9 px bei größeren Zwischenabständen. Zusammenhängende Diagramm-/Aufgabenfläche liegt innerhalb einer gemeinsamen beschnittenen Außenrundung. Keine dicht ineinander liegenden widersprüchlichen Rundungen. |
-| 15 | Textkontrast verbessern | Haupttext #202a38, Hinweise #596270 auf Papierweiß. Diagrammachsen nutzen #536071, Blau auf heller Fläche. Deaktivierte Regler sind als solche gekennzeichnet; Textinformationen bleiben an anderer Stelle sichtbar. Farben sind unten rechnerisch geprüft. |
-| 16 | Überschriftenumbrüche prüfen | Desktop 1440 px und Handy 390/320 px geprüft. Kurze Teile von Formeln werden mit nowrap zusammengehalten; lange CAS-Eingaben dürfen umbrechen. Kein horizontaler Seitenüberlauf in allen sieben Lektionen. |
-| 17 | Optisch ausrichten | SVG-Icons und Text per Flexbox mittig, gleiche Iconfläche. Eingaben und Buttons an derselben Grundlinie, Prozent-Einheiten im Feld. Visuelle Kontrolle beider Ansichten. |
+| 7 | Hauptfunktion erhält Platz | Glockenkurve als große Arbeitsfläche auf dem zusammenhängenden Papierbogen. Auf der Startseite steht unmittelbar daneben die Zerlegung in linke Hälfte und zusätzliche σ-Fläche. In der Lektion erscheint die Kurve vor dem Erklärungstext. |
+| 8 | Inhaltlich gruppierte Abstände | Aufgaben werden durch Nummern, Freiraum und sparsame Regeln gegliedert. Ergebnisfeld und Feedback stehen unmittelbar bei der Frage. Der Rechenweg der Probeklausur nutzt einen tatsächlich beschreibbaren linierten Bereich. |
+| 9 | Konkrete Überschriften | Die Startseite stellt die konkrete Frage „Links von 12. Wie viel ist das?“. Jede Lektion behält ihre fachliche Frage; keine allgemeine Werbeüberschrift vor dem Produkt. |
+| 10 | Wichtigste Aktion hervorheben | Start: der klare Einstieg „Hilfsmittelfrei üben“, direkt in der Arbeitsfläche „Antwort prüfen“. Übung und Klausur nutzen denselben ausgefüllten Bordeaux-Button für die jeweilige Hauptaktion. |
+| 11 | Eine Akzentfarbe | Auf Nutzerwunsch Bordeaux #651d32 als Akzent und tragende Heftfarbe, Creme #f7f0df als Papier, Rosé nur als tonale Diagrammfüllung. Grün und Rotbraun ausschließlich für Antwortfeedback. |
+| 12 | Einheitliche Icons | Nur ein konsistentes SVG-Pfeilsystem für richtungsbezogene Aktionen. Die Heftnavigation verwendet klare Textlinks; die Wortmarke wird aus derselben Serifenschrift gesetzt. |
+| 13 | Verzierungen entfernen | Keine Glanzverläufe, Deko-Icons oder schwebenden Schatten. Linien trennen Kapitel, Rechenbereiche und Tabellen. Die einzelne Randlinie gliedert die Nummernspalte des Arbeitshefts. |
+| 14 | Verschachtelte Ecken abstimmen | Die Heftflächen sind rechteckig; Buttons haben lediglich 2 px Radius, Eingaben und Tabellen rechtwinklige Kanten. Es gibt keine verschachtelten Rundungen, deren Abstände sich widersprechen könnten. |
+| 15 | Textkontrast verbessern | Haupttext #3c2029 und Hinweise/Achsen #735c60 auf Creme #f7f0df. Creme auf Bordeaux für Kopf und Aktionen. Aktive Beschriftungen bleiben dunkel genug; deaktivierte Grenzen sind zusätzlich durch den deaktivierten Regler erkennbar. |
+| 16 | Überschriftenumbrüche prüfen | Desktop 1440 px und Handy 390/320 px geprüft. Lange deutsche Überschriften dürfen sprachgerecht getrennt werden; Formelteile und CAS-Eingaben erhalten eigene Umbruchregeln. Kein horizontaler Seitenüberlauf in allen sieben Lektionen. |
+| 17 | Optisch ausrichten | Wortmarke, Ausgabe und Klausurdatum bilden eine gemeinsame Heftkopfzeile. Pfeile sitzen mittig neben den Aktionen. Formeleingaben und Prüfbuttons sind ausgerichtet; linke und rechte Diagrammwerte liegen auf einer Grundlinie. |
 | 18 | Gleich breite Ziffern | `font-variant-numeric: tabular-nums` auf der gesamten Anwendung; damit auch Tabellen, Fortschrittszahlen, Timer und wechselnde Wahrscheinlichkeiten. |
 | 19 | Tatsächliche Ladezustände | Die bedarfsweise erzeugte Φ-Tabelle meldet „Tabelle wird berechnet …“, einen Spinner und aria-busy. Statische sofort verfügbare Inhalte erhalten keinen künstlichen Ladezustand. |
 | 20 | Hilfreiches Feedback animieren | Flächen folgen unmittelbar den Reglern; σ-Presets interpolieren die Grenzen kurz. Antwortfeedback erscheint sichtbar und wird als Status ausgegeben. `prefers-reduced-motion` wird berücksichtigt. |
@@ -37,24 +37,24 @@ Stand: 15.11.2026. Prüfung gegen den ausdrücklichen Nutzerauftrag mit 20 UI-Re
 | 4 | Wasserwellen | Verworfen: Bewegung und organische Linien passen weniger zum Arbeitsblatt. |
 | 5 | Gesprenkelte Graphittextur | Verworfen: Sprenkel können bei kleinen Zahlen wie Satzzeichen wirken. |
 | 6 | Einfarbige Landschaften | Verworfen: bildhafte Landschaft bietet hier keinen Lernnutzen. |
-| 7 | Blueprint-Raster | Geprüft als geometrisch passende Alternative; kein flächiges Linienraster hinter Formeln. Das sparsame Punktraster übernimmt seine sachliche Ordnung. |
+| 7 | Blueprint-Raster | Geprüft als geometrisch passende Alternative; kein flächiges Linienraster hinter Formeln. Die Ordnungsfunktion übernehmen die Randlinie und die tatsächlichen Diagramm-/Rechenlinien. |
 | 8 | Halbtonraster | Verworfen: zu präsent und bei Skalierung potenziell unruhig. |
 | 9 | Körnige Farbverläufe | Verworfen: unnötiger Wechsel der Helligkeit hinter Lerntext. |
 | 10 | Grastextur | Verworfen: thematisch unpassend und kontrastreich. |
 | 11 | Geditherte Bilder | Verworfen: keine Bildinformation erforderlich, Muster würde konkurrieren. |
-| 12 | Papiertextur | **Gewählt als Papiercharakter:** warmes Papierweiß und ruhige leicht warme Inhaltsflächen. Auf zusätzliches sichtbares Rauschen wird zugunsten der Lesbarkeit verzichtet. |
+| 12 | Papiertextur | **Gewählt:** warmes Creme mit sehr feiner, lokal erzeugter Papierkörnung (SVG-Turbulenz bei 2,5 % Deckkraft). Sie bleibt unterhalb der Kontraste der mathematischen Beschriftung; keine externen Texturdateien. |
 | 13 | Höhenlinien | Verworfen: können mit Funktionsgraphen verwechselt werden. |
 | 14 | Wolkenhimmel | Verworfen: illustrative Fläche ohne fachlichen Beitrag. |
 | 15 | Pixelmosaike | Verworfen: zu viele Einzelflächen und harte Kontraste. |
 | 16 | Linsenverzerrung | Verworfen: gerade Achsen und Formeln sollen unverzerrt wirken. |
-| 17 | Farbverlauf aus feinen Punkten | Verworfen: ein Verlauf erzeugt unnötige Gewichtung. Das gewählte Raster bleibt gleichmäßig. |
-| 18 | Raster aus quadratischen Punkten | **Gewählt in zurückhaltender Abwandlung:** sehr feine Punkte in regelmäßig quadratischer Anordnung, nur im freien Startbereich. Die Punkte sind rund und sehr kontrastarm. |
+| 17 | Farbverlauf aus feinen Punkten | Verworfen: ein Verlauf erzeugt unnötige Gewichtung. Auf Verläufe in den Arbeitsflächen wird verzichtet. |
+| 18 | Raster aus quadratischen Punkten | Geprüft und verworfen: würde mit der feinen Papierstruktur und den echten Diagramm-/Rechenlinien konkurrieren. |
 | 19 | Unscharfe Fotos | Verworfen: keine fachliche Information und wechselnder Hintergrundkontrast. |
-| 20 | Schillernde Formen | Verworfen: konkurrieren mit Blau und Diagramm. |
+| 20 | Schillernde Formen | Verworfen: konkurrieren mit Bordeaux und der Diagrammfläche. |
 | 21 | Impressionistische Gemälde | Verworfen: Bildsprache lenkt vom Rechnen ab. |
 | 22 | ASCII-/Pixelmuster | Verworfen: Monospace soll ausschließlich als CAS-Signal dienen. |
 
-Gewählter Stil: warmes Papierweiß, ruhige Flächen und ein minimales Punktraster als Anklang an technisches Papier. Formeln, Aufgaben, Tabellen und Diagramm liegen auf musterfreien Flächen. Es werden keine Texturdateien geladen.
+Gewählter Stil: ein zusammenhängendes Mathe-Heft in Bordeaux und Creme mit zurückhaltender Papierkörnung. Serifentitel, Randnummern und eine horizontale Heftnavigation bestimmen den Aufbau. Formeln, Tabellen und Diagramme erhalten keine zusätzlichen Rastermuster. Es werden keine externen Texturdateien geladen.
 
 ## Fachlicher Umfang gegen die Klausurankündigung
 
@@ -84,10 +84,15 @@ Gewählter Stil: warmes Papierweiß, ruhige Flächen und ein minimales Punktrast
 
 Originaltabelle und zusätzliche Buch-/Arbeitsblattseiten fehlen; dies wird transparent ausgewiesen. Automatische Klausurbewertung prüft nur Endergebnisse, keine Textrechenwege. Kein benotender oder manipulationssicherer Prüfungsserver. Fortschritt gehört zum jeweiligen Browser und kann durch Löschen des Browserspeichers verloren gehen.
 
+## Gestaltung und Navigation erneut geprüft
+
+- Durchgehender Cremebogen mit Bordeaux-Heftkopf, waagerechter Navigation und aufklappbarem Kapitelverzeichnis statt dauerhafter Seitenleiste.
+- Startaufgabe mit sichtbarer Flächenzerlegung, rechteckigen Eingabeflächen und großem Serifentitel. Auch Lektionen, Übungen, Tabellen und Klausur verwenden dieses System.
+- Desktop, Tablet und Handy: Kapitelverzeichnis, Menüzustände, lange Überschriften und Rechenflächen geprüft. Fachinhalte und 18 verifizierte Aufgabenlösungen bleiben erhalten.
+
 ## Rechnerische Kontrastprüfung
 
-- Haupttext auf Papier: 13.50:1.
-- Hinweise auf Papier: 5.75:1.
-- Weiß auf Kobaltblau: 6.48:1.
-- Diagrammachsen auf Inhaltsfläche: 6.35:1.
-- Blauer Text auf hellblau: 5.75:1.
+- Haupttext auf Creme: 12.92:1.
+- Hinweise und Achsen auf Creme: 5.39:1.
+- Creme auf Bordeaux: 10.41:1.
+- Sekundärtext im Heftkopf: 7.09:1.

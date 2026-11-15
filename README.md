@@ -1,6 +1,6 @@
 # Mathe Lernblatt · Klausur 23.11.2026
 
-Deutschsprachige Stochastik-Lernwebsite als interaktives Arbeitsblatt. Warmes Papierweiß, Kobaltblau, sparsames Punktraster. Reines HTML/CSS/JavaScript ohne Installation, externe Schriftdateien oder Build-Schritt.
+Deutschsprachige Stochastik-Lernwebsite als interaktives Arbeitsblatt. Bordeaux, warmes Creme und gedämpfte Rosétöne. Gestaltung als durchgehendes Lernheft mit waagerechter Kapitelübersicht, Serifentiteln, Randnummern und feiner Papierstruktur. Reines HTML/CSS/JavaScript ohne Installation, externe Schriftdateien oder Build-Schritt.
 
 ## Starten
 
