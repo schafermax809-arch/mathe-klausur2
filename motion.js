@@ -73,7 +73,7 @@ window.MatheMotion = (() => {
     reduced.addEventListener('change',reset,{signal});
     if(!reduced.matches){
       const observer=new IntersectionObserver(entries=>{for(const entry of entries)if(entry.isIntersecting){entry.target.classList.add('has-entered');observer.unobserve(entry.target);}},{threshold:.08});
-      document.querySelectorAll('.worksheet-opening,.graph-panel,.home-bottom,.page-intro').forEach((el,i)=>{el.classList.add('motion-reveal');el.style.setProperty('--reveal-delay',`${Math.min(i,2)*65}ms`);observer.observe(el);});observers.push(observer);
+      document.querySelectorAll('.worksheet-opening,.graph-panel,.home-bottom,.page-intro,.example,.exercise-workspace,.exam-ticket,.exam-brief,.exam-result').forEach((el,i)=>{el.classList.add('motion-reveal');el.style.setProperty('--reveal-delay',`${Math.min(i,2)*65}ms`);observer.observe(el);});observers.push(observer);
     }
     dispose=()=>{controller.abort();reset();observers.forEach(o=>o.disconnect());lists.forEach(list=>{list.querySelector('.topic-preview')?.remove();list.classList.remove('has-preview','is-exploring');});};
     return dispose;

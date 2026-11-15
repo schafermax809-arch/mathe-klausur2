@@ -108,3 +108,34 @@ Originaltabelle und zusätzliche Buch-/Arbeitsblattseiten fehlen; dies wird tran
 - Touch erhält große Themenzeilen und Regler ohne Hover-Abhängigkeit. Tastaturfokus aktualisiert ebenfalls die Vorschau. Reduzierte Bewegung unterbindet Magnetismus, Neigung und Einblendanimationen.
 - Keine WebGL-Abhängigkeit und keine dauerhafte Animationsschleife. Pointer-Animationen laufen nur bei Bewegung. Ereignisse, Observer und ausstehende Animationsframes werden beim Ansichtswechsel aufgeräumt.
 - Direkter Drag auf μ ergibt 50,00 %, Regler zurück auf 12 ergibt 84,13 %. Themenwechsel, Tastaturfokus, reduzierte Bewegung, wiederholte Navigation und 25 Kombinationen aus Ansichten/Bildschirmbreiten geprüft.
+
+## Durchgängige Gestaltung der Arbeitsseiten (Version 5)
+
+Die 20 Regeln und alle 22 Hintergrundideen wurden für die Unterseiten erneut einzeln gegen die Tabelle oben geprüft. Der genehmigte Überblick bleibt erhalten. Bordeaux, Creme und ruhige Flächen werden nun durchgängig verwendet.
+
+- **1–4:** Nur Arbeitsmodus und fachliche Kennzeichnungen. Keine neuen Füll-Badges, keine zufällige Kursivschrift, Monospace nur bei CAS. Kapitelnummern und Aufgabennummern dienen der Orientierung.
+- **5–8:** Gleiches Schrift-, Farb-, Abstands- und Buttonsystem; die Arbeitsseiten zeigen ihre Funktion direkt. Jede Lektion besitzt einen fachlich passenden Versuch. Aufgabe, Eingabe, Prüfung, Tipp und Lösung bilden eine zusammenhängende Rechenfläche.
+- **9–12:** Konkrete Fragen bleiben erhalten. „Antwort prüfen“, „Probeklausur starten“ und Abgabe sind klar hervorgehoben. Bordeaux trägt aktive Zustände. Bestehende SVG-Pfeile bleiben einheitlich.
+- **13–16:** Keine zusätzlichen Hintergrundmuster oder dauerhaften Effektschleifen. Formeln und Tabellen bleiben unverzerrt. Aufeinander abgestimmte Ecken, kontrastreiche Creme-/Bordeaux-Flächen, geprüfte Umbrüche bei 1440/1024/768/390/320 px.
+- **17–20:** Labels, Zahlen und Hauptaktionen sind ausgerichtet. Tabellarische Ziffern bleiben aktiv. Die Φ-Tabelle hat ihren tatsächlichen Ladezustand. Lösungen öffnen sich mit kurzem Feedback; Fortschritt, Einblendungen und Buttons reagieren. Reduzierte Bewegung wird respektiert.
+
+### Inhaltlich passende Interaktionen
+
+| Lektion | Experiment und geprüfter Referenzfall |
+|---|---|
+| Mindestanzahl | n verstellen bei p = 0,15, Ziel 95 %. n = 18 → 94,64 %, n = 19 → 95,44 %. |
+| Prognose | 90/95/99 % umschalten bei n = 400, p = 0,5. 95 % → [181; 219], 99 % → [175; 225]. Die Rundungs- und Näherungshinweise bleiben sichtbar. |
+| Glockenkurve | Gesamtfläche und anschließender großer interaktiver Graph mit direkten Grenzen und zugänglichen Reglern. |
+| CAS | Zwischen Flächen- und Grenzsuche wechseln. P(X ≤ 205) = 84,13 % bei μ = 200, σ = 5; 10 %-Quantil ≈ 193,59 g. |
+| Standardnormal | z-Schieberegler und kumulierte Fläche: z = 1 → 84,13 %, z = −1 → 15,87 %. |
+| Approximation | Exakte Binomialmassen neben der Normaldichte auf gemeinsamer Skala. n = 64, p = 0,5 → σ = 4; n = 16 → Faustregel σ > 3 nicht erfüllt. |
+| Konfidenz | Stichprobengröße im 95%-Näherungsintervall verstellen. Vierfaches n halbiert die halbe Breite bei unverändertem p̂ = 0,5. |
+
+### Bedienung und Regression
+
+- Lesebereich mit gezielter Abschnittsnavigation, aktuellem Abschnitt und Leseanzeige. Keine überflüssige Daueranimation.
+- Übungen: 18 Aufgaben weiterhin vorhanden; Filter, gespeicherte Erfolge, Tipps und Lösungen funktionieren. Die Fortschrittsanzeige aktualisiert sich direkt nach einer richtigen Antwort.
+- Tastaturfokus bleibt nach Filterwechsel erhalten. Die Φ-Tabelle besitzt einen einzigen Tabstopp und kann mit Pfeiltasten zeilen- und spaltenweise untersucht werden. Auswahl zeigt z und Φ(z), ohne die Tabellenkonvention zu ändern.
+- Klausur: 10 Sprungziele, Status für eingetragene Antworten, Timer und automatische lokale Speicherung. Vor der Abgabe werden weder Lösungen noch Hinweise oder die auswendig zu lernende z-Formel ergänzt.
+- Vollständiger richtiger Durchlauf erneut mit 100/100 Punkten, davon 30/30 und 70/70, geprüft. Die Auswertung ergänzt passende Teilfortschrittsbalken. Bewertung und Rechenwege bleiben fachlich unverändert.
+- 60 Kombinationen aus Ansichten und Bildschirmbreiten ohne seitlichen Überlauf geprüft; zusätzlich Touch-Ansicht, reduzierte Bewegung, Filterfokus, Tabellen-Tastaturbedienung, Navigation und Neuladen gespeicherter Antworten geprüft. Keine JavaScript-Seitenfehler.

@@ -45,3 +45,7 @@ Die vollständige Einzelprüfung der 20 UI-Regeln und aller 22 Hintergrundideen 
 ## Interaktionen
 
 Themenvorschau bei Hover und Tastaturfokus, fließende Bordeaux-Füllung und leicht magnetische Hauptbuttons. Grenzen der Glockenkurve lassen sich am markierten Punkt ziehen; die Regler bleiben als Tastatur- und Touch-Alternative vorhanden. `motion.js` und `motion.css` berücksichtigen reduzierte Bewegung und benötigen kein WebGL.
+
+## Durchgängige Arbeitsseiten
+
+`study.js` und `study.css` ergänzen sieben passende Lektionsexperimente, Abschnittsnavigation, interaktive Φ-Tabellenauswahl, Aufgabenflächen mit direkt aktualisiertem Fortschritt und den gestalteten Klausurmodus mit Aufgabennavigation und Teilauswertung. Die Experimente verwenden dieselben numerischen Helfer wie die Aufgaben. Die gesamte Website bleibt ohne Build-Schritt nutzbar.
