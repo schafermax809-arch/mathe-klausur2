@@ -16,16 +16,16 @@ Stand: 15.11.2026. Prüfung gegen den ausdrücklichen Nutzerauftrag mit 20 UI-Re
 | 8 | Inhaltlich gruppierte Abstände | Die einzelne grafische Arbeitsfläche verbindet Diagramm, Grenzen, Flächenwert und Aufgabe. Übungsfragen gruppieren Eingabe, Prüfung, Tipp und Lösung durch konsistente Abstände. Kein Raster aus gleichgewichtigen Karten. |
 | 9 | Konkrete Überschriften | Die Startfrage lautet „Welche Fläche liegt links von 12?“. Konkrete fachliche Überschriften bleiben in allen sieben Lektionen erhalten. |
 | 10 | Wichtigste Aktion hervorheben | Start: der klare Einstieg „Hilfsmittelfrei üben“, direkt in der Arbeitsfläche „Antwort prüfen“. Übung und Klausur nutzen denselben ausgefüllten Bordeaux-Button für die jeweilige Hauptaktion. |
-| 11 | Eine Akzentfarbe | Bordeaux #571c30 für Aktionen, aktive Zustände und Kurve; Creme #f5f1e8 als Hintergrund; #fffcf6 als helle Arbeitsfläche. Die Diagrammfüllung ist ein transparenter Roséton. Grün/Rotbraun dienen nur dem Antwortfeedback. |
+| 11 | Eine Akzentfarbe | Bordeaux #58172f für Aktionen, aktive Zustände und Kurve; Creme #f4eddf als Hintergrund; #fffaf0 als helle Arbeitsfläche. Die Diagrammfüllung ist ein transparenter Roséton. Grün/Rotbraun dienen nur dem Antwortfeedback. |
 | 12 | Einheitliche Icons | Wortmarke und Favicon verwenden dasselbe reduzierte Kurvenzeichen. Aktionspfeile folgen dem 24er SVG-System mit gleichmäßiger Strichstärke; keine zusätzlichen Deko-Icons. |
 | 13 | Verzierungen entfernen | Keine Papierkörnung, keine Glanzeffekte und keine dekorativen Rahmenlinien. Sehr zurückhaltende Schatten dienen nur der Ebenentrennung von Segmentschaltern und der großen grafischen Arbeitsfläche. |
 | 14 | Verschachtelte Ecken abstimmen | Arbeitsfläche: 20 px Außenradius, 27 px Innenabstand. Keine eng anliegenden Innenkarten. Segmentschalter: 9 px außen, 5 px innen bei 4 px Abstand; Navigation: 11/7/4 px. Eingaben 8 px, Buttons 9 px. Auf Handy wird die große Arbeitsfläche auf 15 px abgestimmt. |
-| 15 | Textkontrast verbessern | Haupttext #30272b und Hinweise #75666c auf Creme #f5f1e8. Cremetext auf Bordeaux im Rechenbereich. Deaktivierte Grenzen sind über den deaktivierten Regler zusätzlich erkennbar; aktive Werte bleiben kontrastreich. |
+| 15 | Textkontrast verbessern | Haupttext #30272b und Hinweise #75666c auf Creme #f4eddf. Cremetext auf Bordeaux im Rechenbereich. Deaktivierte Grenzen sind über den deaktivierten Regler zusätzlich erkennbar; aktive Werte bleiben kontrastreich. |
 | 16 | Überschriftenumbrüche prüfen | Desktop 1440 px und Handy 390/320 px geprüft. Lange deutsche Überschriften dürfen sprachgerecht getrennt werden; Formelteile und CAS-Eingaben erhalten eigene Umbruchregeln. Kein horizontaler Seitenüberlauf in allen sieben Lektionen. |
 | 17 | Optisch ausrichten | Kompakte Kopfzeile mit gemeinsamer Mittelachse für Wortmarke, Navigation und Kapitelzugriff. Aufgabentext, Prozentfeld und Hauptaktion sind einheitlich ausgerichtet; Diagrammwerte haben eine gemeinsame Grundlinie. |
 | 18 | Gleich breite Ziffern | `font-variant-numeric: tabular-nums` auf der gesamten Anwendung; damit auch Tabellen, Fortschrittszahlen, Timer und wechselnde Wahrscheinlichkeiten. |
 | 19 | Tatsächliche Ladezustände | Die bedarfsweise erzeugte Φ-Tabelle meldet „Tabelle wird berechnet …“, einen Spinner und aria-busy. Statische sofort verfügbare Inhalte erhalten keinen künstlichen Ladezustand. |
-| 20 | Hilfreiches Feedback animieren | Flächen folgen unmittelbar den Reglern; σ-Presets interpolieren die Grenzen kurz. Antwortfeedback erscheint sichtbar und wird als Status ausgegeben. `prefers-reduced-motion` wird berücksichtigt. |
+| 20 | Hilfreiches Feedback animieren | Flächen folgen unmittelbar den Reglern; σ-Presets interpolieren die Grenzen kurz. Die Grenze lässt sich auch direkt am Diagramm ziehen. Die Themenliste zeigt bei Hover oder Tastaturfokus eine passende Skizze; ein kreisförmiger Farbwechsel und leicht magnetische Hauptbuttons machen Aktionen erkennbar. Antwortfeedback erscheint sichtbar und wird als Status ausgegeben. `prefers-reduced-motion` wird berücksichtigt. |
 
 ## Alle 22 Hintergrundideen geprüft
 
@@ -94,7 +94,17 @@ Originaltabelle und zusätzliche Buch-/Arbeitsblattseiten fehlen; dies wird tran
 
 ## Rechnerische Kontrastprüfung
 
-- Haupttext auf Creme: 12.84:1.
-- Hinweise auf Creme: 4.81:1.
-- Cremetext auf Bordeaux: 12.15:1.
-- Sekundärtext im Rechenbereich: 8.34:1.
+- Haupttext auf Creme: 12.43:1.
+- Hinweise auf Creme: 4.65:1.
+- Cremetext auf Bordeaux, auch in aktiven Themenzeilen: 12.79:1.
+- Vorschautext auf Rosé: 6.17:1.
+
+## Interaktionen nach Lusion-/Cuberto-Präferenz
+
+- Fließende kreisförmige Bordeaux-Füllung beim Hover; Text bleibt klar und unverzerrt.
+- Bewegliche Themenvorschau mit mathematischer Skizze. Binomialbalken aus echten Wahrscheinlichkeiten; Normalnäherung mit n = 64, p = 0,5 und σ = 4.
+- Leicht magnetische Hauptbuttons mit kreisförmiger Füllung und reagierendem Pfeil.
+- Direktes Ziehen der Kurvengrenzen ändert dieselben Werte wie die weiterhin vorhandenen, tastaturbedienbaren Regler. Keine Verformung des mathematischen Graphen.
+- Touch erhält große Themenzeilen und Regler ohne Hover-Abhängigkeit. Tastaturfokus aktualisiert ebenfalls die Vorschau. Reduzierte Bewegung unterbindet Magnetismus, Neigung und Einblendanimationen.
+- Keine WebGL-Abhängigkeit und keine dauerhafte Animationsschleife. Pointer-Animationen laufen nur bei Bewegung. Ereignisse, Observer und ausstehende Animationsframes werden beim Ansichtswechsel aufgeräumt.
+- Direkter Drag auf μ ergibt 50,00 %, Regler zurück auf 12 ergibt 84,13 %. Themenwechsel, Tastaturfokus, reduzierte Bewegung, wiederholte Navigation und 25 Kombinationen aus Ansichten/Bildschirmbreiten geprüft.

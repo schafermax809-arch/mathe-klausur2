@@ -41,3 +41,7 @@ Die vollständige Einzelprüfung der 20 UI-Regeln und aller 22 Hintergrundideen 
 ## Schriften
 
 [Bricolage Grotesque](https://fonts.google.com/specimen/Bricolage+Grotesque) und [Instrument Sans](https://fonts.google.com/specimen/Instrument+Sans), bezogen aus Google Fonts. Beide stehen unter der SIL Open Font License. Die vollständigen Lizenz- und Copyrighttexte liegen in `fonts/bricolage-OFL.txt` und `fonts/instrument-OFL.txt`.
+
+## Interaktionen
+
+Themenvorschau bei Hover und Tastaturfokus, fließende Bordeaux-Füllung und leicht magnetische Hauptbuttons. Grenzen der Glockenkurve lassen sich am markierten Punkt ziehen; die Regler bleiben als Tastatur- und Touch-Alternative vorhanden. `motion.js` und `motion.css` berücksichtigen reduzierte Bewegung und benötigen kein WebGL.
